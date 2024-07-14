@@ -6,11 +6,11 @@ This is a backend project from PicPay, a Brazilian fintech.
 
 ## Tech Stack
 
-
-<img src="{https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot}" alt="Spring Boot" />
-<img src="{https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white}" alt="PostgreSQL" />
-<img src="{https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white}" alt="Docker" />
-
+<span>
+    <img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot" alt="Spring Boot" />
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</span>
 
 
 ## Requirements
