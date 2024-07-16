@@ -66,12 +66,16 @@ Go to the project directory
   cd my-project
 ```
 
-Start the docker compose
+Start the docker compose to get the database started
 
 ```bash
   docker compose up -d
 ```
 
+Start the Spring Boot App
+```
+mvn spring-boot:run
+```
 ## API Reference
 
 Use Swagger UI to test the API: ```localhost:8080/swagger-ui.html```
