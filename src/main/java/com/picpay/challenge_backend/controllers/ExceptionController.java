@@ -50,4 +50,10 @@ public class ExceptionController {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(exceptionDTO);
     }
 
+    @ExceptionHandler(NotificationException.class)
+    public ResponseEntity<ExceptionDTO> handleNotificationException(NotificationException exception) {
+        ExceptionDTO exceptionDTO = new ExceptionDTO(exception.getMessage(), HttpStatus.GATEWAY_TIMEOUT.value());
+        return ResponseEntity.status(HttpStatus.GATEWAY_TIMEOUT).body(exceptionDTO);
+    }
+
 }
